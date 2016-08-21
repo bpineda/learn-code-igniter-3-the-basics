@@ -5,7 +5,7 @@
 <div class="main-nav top-bar" id="example-menu">
   <div class="top-bar-left">
     <ul class="menu">
-      <li><a href="#/users">Properties</a></li>
+      <li><a href="<?php echo base_url('/'); ?>">Properties</a></li>
     </ul>
   </div>
 </div>
