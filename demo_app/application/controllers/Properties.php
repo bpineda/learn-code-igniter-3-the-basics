@@ -24,7 +24,7 @@ class Properties extends LayoutLoader {
         $this->regular_layout($data);
     }
 
-    public function other()
+    public function show()
     {
 
         $data['user_name'] = 'User Full Name';
