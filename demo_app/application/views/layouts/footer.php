@@ -2,7 +2,7 @@
         <footer class="callout large secondary">
           <div class="row">
             <div class="large-12 columns">
-              <h5>Model Rules enforcement</h5>
+              <h5>Demo Application</h5>
               <p>examples by: <a href="https://twitter.com/bpineda">@bpineda</a></p>
               </h4>
             </div>
