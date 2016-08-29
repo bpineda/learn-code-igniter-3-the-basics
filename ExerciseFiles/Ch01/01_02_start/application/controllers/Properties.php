@@ -16,7 +16,7 @@ class Properties extends CI_Controller
         $data['status_group'] = ['All', 'Available', 'Unavailable'];
 
         $this->load->view('layouts/header');
-        $this->load->view('layouts/foundation_nav');
+        $this->load->vi ew('layouts/foundation_nav');
         $this->load->view('properties/index', $data);
         $this->load->view('layouts/footer');
     }
