@@ -13,10 +13,10 @@ class Properties extends CI_Controller
    	$this->load->view('layouts/footer');
    }
 
-   public function show()
+   public function show($id)
    {
-
-    
+      $data['id'] = $id;
+      $this->load->view('properties/show', $data);
    }
 
 }
