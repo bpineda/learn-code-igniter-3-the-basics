@@ -42,4 +42,7 @@
   </table>
   <br/>
 </div>
+<div class="row column">
+  <a class="button radius info">Export</a>
+</div>
 
