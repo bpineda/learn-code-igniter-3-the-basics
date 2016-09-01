@@ -18,6 +18,13 @@ class Properties extends CI_Controller
    	$this->load->view('layouts/footer');
    }
 
+   public function set_filter()
+   {
+      $session_data['selected_filter'] = $this->input->get('filter');
+      $this->session->set_userdata($session_data);
+      redirect('properties/index');
+   }
+
    public function show($id)
    {
       $data['id'] = $id;
@@ -55,13 +62,6 @@ class Properties extends CI_Controller
       $this->load->view('layouts/foundation_nav');
       $this->load->view('properties/edit', $data);
       $this->load->view('layouts/footer');
-   }
-
-   public function set_filter()
-   {
-      $session_data['selected_filter'] = $this->input->get('filter');
-      $filter = $this->session->set_userdata($session_data);
-      redirect('properties/index');
    }
 
 }
